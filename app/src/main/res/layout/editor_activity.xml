@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D3C0C0"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="80dp"
+        >
+        <ImageView
+            android:src="@drawable/first"
+            android:id="@+id/avatar2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="name :"
+                style="@style/text_style"/>
+            <EditText
+                android:inputType="text"
+                tools:text="            "
+                android:id="@+id/edt_name"
+                style="@style/text_style"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="class :"
+                style="@style/text_style"/>
+            <EditText
+                tools:text="            "
+                android:inputType="number"
+                android:id="@+id/edt_class"
+                style="@style/text_style"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="Roll no :"
+                style="@style/text_style"/>
+            <EditText
+                tools:text="            "
+                android:inputType="number"
+                android:id="@+id/edt_rollno"
+                style="@style/text_style"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="gender :"
+                style="@style/text_style"/>
+            <Spinner
+                android:id="@+id/gender"
+                android:spinnerMode="dropdown"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/save"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="@color/teal_200"/>
+    </LinearLayout>
+</LinearLayout>

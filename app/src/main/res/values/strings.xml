@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string-array name="gender">
+        <item>unknown</item>
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>
