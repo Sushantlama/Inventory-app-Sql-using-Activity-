@@ -2,7 +2,7 @@
 An demo android application for making using of sql by create a list of items and saving that information .
 Art is made to be explored
 <br>
-<img src="photos/logo.png" width="200">
+<img src="resources/ic_launcher.png" width="200">
 <br>
 # database used
 - SQL
@@ -15,20 +15,18 @@ done
 <br>
 <table>
   <tr>
-    <td>Artworks screen Page</td>
-     <td>Artworks item page</td>
-     <td>Artist Screen Page</td>
-    <td>Artist Picasso Page</td>
-    <td>Search Image Page</td>
-    <td>User Info Page</td>
+    <td>Main page</td>
+     <td>Item save page</td>
+     <td>Item edit Page</td>
+    <td>Select avatar page</td>
+    <td>list of item</td>
   </tr>
   <tr>
-    <td><img src="photos/artworks.jpg" width="300" ></td>
-    <td><img src="photos/artworks_item.jpg" width="300"></td>
-    <td><img src="photos/artist.jpg" width="300"></td>
-    <td><img src="photos/artist_picasso.jpg" width="300"></td>
-    <td><img src="photos/search.jpg" width="300"></td>  
-    <td><img src="photos/user2.jpg" width="300"></td>
+    <td><img src="resources/main page.jpg" width="300" ></td>
+    <td><img src="resources/item save page.jpg" width="300"></td>
+    <td><img src="resources/item edit page.jpg" width="300"></td>
+    <td><img src="resources/select  avatar page.jpg" width="300"></td>
+    <td><img src="resources/item list.jpg" width="300"></td>
   </tr>
  </table>
  <br>
