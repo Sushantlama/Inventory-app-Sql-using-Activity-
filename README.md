@@ -8,7 +8,7 @@ Art is made to be explored
 - SQL
 # Installation
 Since the app is yet not released in any app store.you can Access the app through the following steps:-
-- download the app-release.apk file
+- download the app-release.apk file in the download folder
 - Install it
 done 
 # Screenshots
